@@ -1,0 +1,7 @@
+-->The first thing that I did is the instalattion of the most basics pacjages that I may require forserserr
+    -body-parser ()
+    -cors(To handle cross origin requesst)
+    -dotenv(handling sensative data)
+    -express(server)
+    -node-fetch(fetching data)
+    -nodemon(To resatart server after every change)
