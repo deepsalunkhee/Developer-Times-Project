@@ -9,7 +9,7 @@ const Engineering = () => {
   useEffect(() => {
     const fetchNews = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/engineering');
+        const response = await axios.get('https://developer-times-project-backend-six.vercel.app/api/engineering');
         console.log('completed')
         setNews(response.data.articles);
       } catch (error) {

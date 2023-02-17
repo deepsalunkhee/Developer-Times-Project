@@ -8,7 +8,7 @@ const Headline = () => {
   useEffect(() => {
     const fetchNews = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/headline');
+        const response = await axios.get('https://developer-times-project-backend-six.vercel.app/api/headline');
         console.log('completed')
         setNews(response.data.articles);
       } catch (error) {

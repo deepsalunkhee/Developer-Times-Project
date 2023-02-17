@@ -9,7 +9,7 @@ const Movies = () => {
   useEffect(() => {
     const fetchNews = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/movies');
+        const response = await axios.get('https://developer-times-project-backend-six.vercel.app/api/movies');
         console.log('completed')
         setNews(response.data.articles);
       } catch (error) {

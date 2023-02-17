@@ -8,7 +8,7 @@ const Sports = () => {
   useEffect(() => {
     const fetchNews = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/sport');
+        const response = await axios.get('https://developer-times-project-backend-six.vercel.app/api/sport');
         console.log('completed')
         setNews(response.data.articles);
       } catch (error) {
