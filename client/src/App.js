@@ -4,6 +4,7 @@ import './App.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Headline from './components/Headline';
+
 import {
   BrowserRouter as Router,
   Routes,
