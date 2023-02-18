@@ -1,7 +1,7 @@
 const express =require('express');
 const router =express.Router();
 require('dotenv').config();
-const KEY_API = "5c0c53f789b24f72a8a381768c93c0c4";
+const KEY_API = process.env.KEY;
 
 
 
